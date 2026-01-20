@@ -1,0 +1,17 @@
+
+{
+  "name": "repopacker-esm",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GitHub to Plain Text & PDF converter using ESM modules",
+  "scripts": {
+    "start": "serve .",
+    "build": "echo 'No build step required for ESM-only project'"
+  },
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "lucide-react": "^0.562.0",
+    "jspdf": "^2.5.1"
+  }
+}
