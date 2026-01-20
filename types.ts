@@ -33,6 +33,12 @@ export interface TreeNode {
   children?: Record<string, TreeNode>;
 }
 
+export type SelectionStatus = 'checked' | 'unchecked' | 'indeterminate';
+
 export interface SelectionState {
   [path: string]: boolean;
+}
+
+export interface SelectionStatusMap {
+  [path: string]: SelectionStatus;
 }
